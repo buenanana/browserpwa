@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Velox Browser</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="browser-container">
+        <div class="toolbar">
+            <button id="back-btn" class="nav-btn">&#9664;</button>
+            <button id="forward-btn" class="nav-btn">&#9654;</button>
+            <button id="refresh-btn" class="nav-btn">&#8635;</button>
+            <input type="text" id="url-input" placeholder="Enter URL or search...">
+        </div>
+        <iframe id="browser-frame" class="content-area" src="about:blank"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
